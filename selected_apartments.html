@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Подобрать квартиру</title>
+  <script type="module" crossorigin src="./assets/index.js"></script>
+  <link rel="stylesheet" href="./assets/index.css">
+</head>
+<body>
+<main>
+    <section class="selected-apartment selected-apartment-main container">
+
+        <form>
+            <div class="selected-apartment__step selected-apartment__step-1 is-active" data-step-next="2">
+                <h2 class="h1">Срок сдачи?</h2>
+                <div class="step-variants step-1__variants">
+                    <div class="variant step-1__variant">На старте продаж</div>
+                    <div class="variant step-1__variant">Дом сдан</div>
+                    <div class="variant step-1__variant">сдача 2023</div>
+                    <div class="variant step-1__variant">2024 и позже</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-title">25%</div>
+                    <div class="progress-item">
+                        <div style="width: 25%" class="progress-value"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="selected-apartment__step selected-apartment__step-2" data-step="2" data-step-next="3">
+                <h2 class="h1">Выберете количество комнат</h2>
+                <div class="step-variants step-1__variants">
+                    <div class="variant step-1__variant">Студия</div>
+                    <div class="variant step-1__variant">Однокомнатная</div>
+                    <div class="variant step-1__variant">Двухкомнатная</div>
+                    <div class="variant step-1__variant">Трехкомнатная</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-title">50%</div>
+                    <div class="progress-item">
+                        <div style="width: 50%" class="progress-value"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="selected-apartment__step selected-apartment__step-3" data-step="3" data-step-next="4">
+                <h2 class="h1">Комфортный ежемесячный платеж</h2>
+                <div class="step-variants step-2__variants">
+                    <div class="variant step-2__variant">до 15 000 ₽</div>
+                    <div class="variant step-2__variant">до 20 000 ₽</div>
+                    <div class="variant step-2__variant">до 20 000 ₽</div>
+                    <div class="variant step-2__variant">Не имеет значения</div>
+                </div>
+                <div class="progress">
+                    <div class="progress-title">75%</div>
+                    <div class="progress-item">
+                        <div style="width: 75%" class="progress-value"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="selected-apartment__step selected-apartment__step-4" data-step="4">
+                <h2 class="h1">Оставьте заявку</h2>
+                <div class="selected-apartment-main__submit">
+                    <div class="selected-apartment-main__submit-items">
+                        <input class="form-input" type="text" placeholder="Ваше имя">
+                        <input class="form-input" type="tel" placeholder="+7 (___) ___-__-__">
+                        <p class="form-politic">Нажимая кнопку «Отправить», вы подтверждаете
+                            свое согласие на обработку <span>персональных данных</span></p>
+                    </div>
+                    <button class="form-button button button-color" type="submit">Отправить</button>
+                </div>
+            </div>
+        </form>
+        <div class="pattern"></div>
+    </section>
+</main>
+
+
+</body>
+</html>

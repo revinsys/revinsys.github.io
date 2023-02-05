@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>О компании</title>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  <script type="module" crossorigin src="./assets/index.js"></script>
+  <link rel="stylesheet" href="./assets/index.css">
+</head>
+<body>
+<main>
+    <section class="about container">
+        <div class="about-info">
+            <h1 class="h1 about-info__title">СОЗДАЁМ КАЧЕСТВЕННУЮ СРЕДУ ДЛЯ ЖИЗНИ,
+                РАБОТЫ И ДОЛГОЛЕТИЯ <span>СОВРЕМЕННОГО ЧЕЛОВЕКА</span></h1>
+            <p class="about-info__description">Мы принципиально не экономим на качестве: строительные материалы и техника закупаются только у надёжных и проверенных поставщиков и перед началом работ
+                в обязательном порядке тестируются
+                на полигонах.</p>
+            <div class="about-infographics">
+                <div class="about-infographics-item">
+                    <div class="about-infographics-item__title">1 000 000+</div>
+                    <div class="about-infographics-item__description">квадратных метров построили</div>
+                </div>
+                <div class="about-infographics-item">
+                    <div class="about-infographics-item__title">30 000+</div>
+                    <div class="about-infographics-item__description">семей проживают в наших проектах</div>
+                </div>
+                <div class="about-infographics-item">
+                    <div class="about-infographics-item__title">30</div>
+                    <div class="about-infographics-item__description">объектов сданы точно в срок</div>
+                </div>
+                <div class="about-infographics-item">
+                    <div class="about-infographics-item__title">12</div>
+                    <div class="about-infographics-item__description">лет на рынке</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-slider container swiper">
+        <div class="about-slider__wrapper swiper-wrapper">
+            <a href='/object_detail.html' class="catalog-item swiper-slide">
+                <div class="catalog-img">
+                    <img src="./assets/object_1.png" alt="Объект 1">
+                </div>
+                <div class="catalog-info">
+                    <div class="catalog-info__title">ЖК «Айвазовский»</div>
+                    <div class="catalog-info__price">ОТ  9.3 МЛН Р</div>
+                    <div class="catalog-info__params info-params">
+                        <div class="info-params__items">
+                            <div class="info-params__item">Краснодар</div>
+                            <div class="info-params__item">20 мин. до парка</div>
+                        </div>
+                        <div class="info-params__count-apartment">8 квартир</div>
+                    </div>
+                </div>
+            </a>
+            <a href='/object_detail.html' class="catalog-item swiper-slide">
+                <div class="catalog-img">
+                    <img src="./assets/object_2.png" alt="Объект 2">
+                </div>
+                <div class="catalog-info">
+                    <div class="catalog-info__title">ЖК «Улыбка»</div>
+                    <div class="catalog-info__price">от 3,3 млн р</div>
+                    <div class="catalog-info__params info-params">
+                        <div class="info-params__items">
+                            <div class="info-params__item">Краснодар</div>
+                            <div class="info-params__item">18 мин. до центра</div>
+                        </div>
+                        <div class="info-params__count-apartment">660 квартир</div>
+                    </div>
+                </div>
+            </a>
+            <a href='/object_detail.html' class="catalog-item swiper-slide">
+                <div class="catalog-img">
+                    <img src="./assets/object_3.png" alt="Объект 3">
+                </div>
+                <div class="catalog-info">
+                    <div class="catalog-info__title">КД «ВМЕСТЕ»</div>
+                    <div class="catalog-info__price">ОТ 4.8 МЛН Р</div>
+                    <div class="catalog-info__params info-params">
+                        <div class="info-params__items">
+                            <div class="info-params__item">Ростов-на-Дону</div>
+                            <div class="info-params__item">15 мин. до Ботанического сада</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+
+
+        </div>
+        <div class="swiper-controls">
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"><svg width="4" height="8" viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.400003 3.24496L1.385 2.25996L2.99 0.654963C3.33 0.319963 3.91 0.559963 3.91 1.03996V4.15496V6.95996C3.91 7.43996 3.33 7.67996 2.99 7.33996L0.400003 4.74996C-0.0149965 4.33996 -0.0149965 3.65996 0.400003 3.24496Z" fill="#292D32"/>
+            </svg>
+            </div>
+            <div class="swiper-button-next">
+                <svg width="4" height="8" viewBox="0 0 4 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.400003 3.24496L1.385 2.25996L2.99 0.654963C3.33 0.319963 3.91 0.559963 3.91 1.03996V4.15496V6.95996C3.91 7.43996 3.33 7.67996 2.99 7.33996L0.400003 4.74996C-0.0149965 4.33996 -0.0149965 3.65996 0.400003 3.24496Z" fill="#292D32"/>
+                </svg>
+
+            </div>
+        </div>
+
+
+        <a href="/selected_apartments.html" class="button button-color">Подобрать квартиру</a>
+    </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+</body>
+</html>
