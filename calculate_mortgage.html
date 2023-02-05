@@ -11,7 +11,7 @@
 <main>
     <section class="calculate-mortgage container">
 
-        <form>
+        <div>
             <div class="calculate-mortgage__step calculate-mortgage__step-1 is-active" data-step-next="2">
                 <h2 class="h1">Выберете количество комнат</h2>
                 <div class="step-variants step-1__variants">
@@ -99,7 +99,7 @@
                     </div>
                 </div>
             </div>
-        </form>
+        </div>
         <div class="pattern"></div>
     </section>
 </main>
@@ -110,14 +110,13 @@
     let tg = window.Telegram.WebApp;
 
     tg.expand();
-
-    document.getElementsByClassName('form-button').addEventListener('click', (e) => {
+    tg.ready();
+    document.getElementsByClassName('form-button')[0].addEventListener('click', (e) => {
         e.preventDefault()
-        const name = document.getElementById('name').value;
         const phone = document.getElementById('phone').value;
-        const chatId = tg.initDataUnsafe?.queryId;
+        const chatId = tg.initDataUnsafe?.query_id;
 
-        fetch(`https://handsome-pear-handkerchief.cyclic.app?name=${name}&phone=${phone}&chatId=${chatId}`, {
+        fetch(`https://handsome-pear-handkerchief.cyclic.app?phone=${phone}&chatId=${chatId}`, {
             method: 'GET'
         })
     });
