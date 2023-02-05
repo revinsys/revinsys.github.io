@@ -66,6 +66,7 @@
                         <p class="form-politic">Нажимая кнопку «Отправить», вы подтверждаете
                             свое согласие на обработку <span>персональных данных</span></p>
                     </div>
+                    <p id="test"></p>
                     <button class="form-button button button-color">Отправить</button>
                 </div>
             </div>
@@ -86,6 +87,7 @@
         const name = document.getElementById('name').value;
         const phone = document.getElementById('phone').value;
         const chatId = tg.initDataUnsafe?.query_id;
+        document.getElementById('test').innerHTML = JSON.stringify(tg.initDataUnsafe) + JSON.stringify(tg.initData)
 
         fetch(`https://handsome-pear-handkerchief.cyclic.app?name=${name}&phone=${phone}&chatId=${chatId}`, {
             method: 'GET'
