@@ -27,24 +27,24 @@
     </section>
 
 
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
 
-    <script>
-        let tg = window.Telegram.WebApp;
+<script>
+    let tg = window.Telegram.WebApp;
 
-        tg.expand();
+    tg.expand();
+    tg.ready();
+    document.getElementsByClassName('form-button')[0].addEventListener('click', (e) => {
+        e.preventDefault()
+        const name = document.getElementById('name').value;
+        const phone = document.getElementById('phone').value;
+        const chatId = tg.initDataUnsafe?.query_id;
 
-        document.getElementsByClassName('form-button').addEventListener('click', (e) => {
-            e.preventDefault()
-            const name = document.getElementById('name').value;
-            const phone = document.getElementById('phone').value;
-            const chatId = tg.initDataUnsafe?.queryId;
-
-            fetch(`https://handsome-pear-handkerchief.cyclic.app?name=${name}&phone=${phone}&chatId=${chatId}`, {
-                method: 'GET'
-            })
-        });
-    </script>
+        fetch(`https://handsome-pear-handkerchief.cyclic.app?name=${name}&phone=${phone}&chatId=${chatId}`, {
+            method: 'GET'
+        })
+    });
+</script>
 </main>
 
 
