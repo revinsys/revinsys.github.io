@@ -346,7 +346,6 @@ input, button, textarea, select {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
 }
 
 .calculate-mortgage {
