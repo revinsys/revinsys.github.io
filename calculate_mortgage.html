@@ -44,6 +44,7 @@
             </div>
             <div class="calculate-mortgage__step calculate-mortgage__step-2" data-step="3">
                 <h2 class="h1">Нашлось несколько вариантов</h2>
+                <input id="name" class="form-input" type="text" placeholder="Ваше имя">
                 <input id="phone" class="form-input" type="tel" placeholder="+7 (___) ___-__-__">
                 <p class="form-politic">Нажимая кнопку «Отправить», вы подтверждаете
                     свое согласие на обработку <span>персональных данных</span> </p>
@@ -113,10 +114,11 @@
     tg.ready();
     document.getElementsByClassName('form-button')[0].addEventListener('click', (e) => {
         e.preventDefault()
+        const name = document.getElementById('name').value;
         const phone = document.getElementById('phone').value;
         const chatId = tg.initDataUnsafe?.query_id;
 
-        fetch(`https://handsome-pear-handkerchief.cyclic.app?phone=${phone}&chatId=${chatId}`, {
+        fetch(`https://handsome-pear-handkerchief.cyclic.app?name=${name}&phone=${phone}&chatId=${chatId}`, {
             method: 'GET'
         })
     });
