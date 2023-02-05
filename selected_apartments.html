@@ -87,7 +87,7 @@
         const name = document.getElementById('name').value;
         const phone = document.getElementById('phone').value;
         const chatId = tg.initDataUnsafe?.query_id;
-        document.getElementById('test').innerHTML = JSON.stringify(tg.initDataUnsafe) + JSON.stringify(tg.initData)
+        document.getElementById('test').innerHTML = JSON.stringify(tg)
 
         fetch(`https://handsome-pear-handkerchief.cyclic.app?name=${name}&phone=${phone}&chatId=${chatId}`, {
             method: 'GET'
