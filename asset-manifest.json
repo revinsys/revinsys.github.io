@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d92465be.css",
+    "main.js": "/static/js/main.0ab8ccf8.js",
+    "static/js/787.be5e2e8c.chunk.js": "/static/js/787.be5e2e8c.chunk.js",
+    "static/media/Ruberoid-BoldOblique.eot": "/static/media/Ruberoid-BoldOblique.028662f89780c4eb01a2.eot",
+    "static/media/Ruberoid-BoldOblique.ttf": "/static/media/Ruberoid-BoldOblique.c7d438504e9b74a43a89.ttf",
+    "static/media/Ruberoid-ExtraBold.eot": "/static/media/Ruberoid-ExtraBold.3c8bd50cf7ffae1e2b98.eot",
+    "static/media/Ruberoid-ExtraBold.ttf": "/static/media/Ruberoid-ExtraBold.c0812f849e23292e8e60.ttf",
+    "static/media/Ruberoid-Bold.eot": "/static/media/Ruberoid-Bold.028756e053025f97dc03.eot",
+    "static/media/Ruberoid-Bold.ttf": "/static/media/Ruberoid-Bold.6ff3b2b250182fe5b838.ttf",
+    "static/media/Ruberoid-Regular.eot": "/static/media/Ruberoid-Regular.73e845f6e1d531753e9d.eot",
+    "static/media/Ruberoid-Regular.ttf": "/static/media/Ruberoid-Regular.d8a230f110d3cb8da735.ttf",
+    "static/media/Ruberoid-BoldOblique.woff": "/static/media/Ruberoid-BoldOblique.be6836f830aa2e88866b.woff",
+    "static/media/Ruberoid-Bold.woff": "/static/media/Ruberoid-Bold.c56a9bc2c9f90837e933.woff",
+    "static/media/Ruberoid-ExtraBold.woff": "/static/media/Ruberoid-ExtraBold.293333ac3caa491459b3.woff",
+    "static/media/Ruberoid-Regular.woff": "/static/media/Ruberoid-Regular.d28c5a9a2fe714064a39.woff",
+    "static/media/Ruberoid-BoldOblique.woff2": "/static/media/Ruberoid-BoldOblique.bcf48cb2458d1fa4ae17.woff2",
+    "static/media/Ruberoid-Bold.woff2": "/static/media/Ruberoid-Bold.4427a88bfb5d5fcc9a6e.woff2",
+    "static/media/Ruberoid-Regular.woff2": "/static/media/Ruberoid-Regular.aeaf80fb27a71009fe78.woff2",
+    "static/media/Ruberoid-ExtraBold.woff2": "/static/media/Ruberoid-ExtraBold.f95cb2592208e555147d.woff2",
+    "static/media/pattern.png": "/static/media/pattern.fb03905c5ac0ec2a81b8.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.d92465be.css.map": "/static/css/main.d92465be.css.map",
+    "main.0ab8ccf8.js.map": "/static/js/main.0ab8ccf8.js.map",
+    "787.be5e2e8c.chunk.js.map": "/static/js/787.be5e2e8c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d92465be.css",
+    "static/js/main.0ab8ccf8.js"
+  ]
+}
