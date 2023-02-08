@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d155e9ef.css",
-    "main.js": "/static/js/main.474dfec9.js",
+    "main.js": "/static/js/main.999a01ec.js",
     "static/js/787.be5e2e8c.chunk.js": "/static/js/787.be5e2e8c.chunk.js",
     "static/media/Ruberoid-BoldOblique.eot": "/static/media/Ruberoid-BoldOblique.028662f89780c4eb01a2.eot",
     "static/media/Ruberoid-BoldOblique.ttf": "/static/media/Ruberoid-BoldOblique.c7d438504e9b74a43a89.ttf",
@@ -22,11 +22,11 @@
     "static/media/pattern.png": "/static/media/pattern.fb03905c5ac0ec2a81b8.png",
     "index.html": "/index.html",
     "main.d155e9ef.css.map": "/static/css/main.d155e9ef.css.map",
-    "main.474dfec9.js.map": "/static/js/main.474dfec9.js.map",
+    "main.999a01ec.js.map": "/static/js/main.999a01ec.js.map",
     "787.be5e2e8c.chunk.js.map": "/static/js/787.be5e2e8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d155e9ef.css",
-    "static/js/main.474dfec9.js"
+    "static/js/main.999a01ec.js"
   ]
 }
