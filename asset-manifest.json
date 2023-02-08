@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d92465be.css",
-    "main.js": "/static/js/main.0ab8ccf8.js",
+    "main.css": "/static/css/main.d155e9ef.css",
+    "main.js": "/static/js/main.474dfec9.js",
     "static/js/787.be5e2e8c.chunk.js": "/static/js/787.be5e2e8c.chunk.js",
     "static/media/Ruberoid-BoldOblique.eot": "/static/media/Ruberoid-BoldOblique.028662f89780c4eb01a2.eot",
     "static/media/Ruberoid-BoldOblique.ttf": "/static/media/Ruberoid-BoldOblique.c7d438504e9b74a43a89.ttf",
@@ -20,14 +20,13 @@
     "static/media/Ruberoid-Regular.woff2": "/static/media/Ruberoid-Regular.aeaf80fb27a71009fe78.woff2",
     "static/media/Ruberoid-ExtraBold.woff2": "/static/media/Ruberoid-ExtraBold.f95cb2592208e555147d.woff2",
     "static/media/pattern.png": "/static/media/pattern.fb03905c5ac0ec2a81b8.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.d92465be.css.map": "/static/css/main.d92465be.css.map",
-    "main.0ab8ccf8.js.map": "/static/js/main.0ab8ccf8.js.map",
+    "main.d155e9ef.css.map": "/static/css/main.d155e9ef.css.map",
+    "main.474dfec9.js.map": "/static/js/main.474dfec9.js.map",
     "787.be5e2e8c.chunk.js.map": "/static/js/787.be5e2e8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d92465be.css",
-    "static/js/main.0ab8ccf8.js"
+    "static/css/main.d155e9ef.css",
+    "static/js/main.474dfec9.js"
   ]
 }
